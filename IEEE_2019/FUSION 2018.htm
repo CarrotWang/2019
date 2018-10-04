@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://fusion2018.eng.cam.ac.uk/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-myriadpro-n7-active wf-myriadpro-i7-active wf-myriadpro-i4-active wf-myriadpro-n3-active wf-myriadpro-n4-active wf-myriadpro-n6-active wf-active"
+      xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <div class="fit-vids-style">­
+        <style>.fluid-width-video-wrapper {
+            width: 100%;
+            position: relative;
+            padding: 0;
+        }
+
+        .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        } </style>
+    </div><!--<base href="https://fusion2018.eng.cam.ac.uk/">-->
+    <base href=".">
+    <!--[if lt IE 7]></base><![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="./FUSION 2018_files/reset-cachekey-6f6a57b5d6780fba7154b7b549e06d32.css">
+    <link rel="stylesheet" type="text/css"
+          href="./FUSION 2018_files/base-cachekey-1b0b2f35d3eea1d8c9713ca5855eb32b.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="./FUSION 2018_files/facultyStaffDirectory-cachekey-9b1657a5a5baa272bd6aa4c1a62527f4.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="./FUSION 2018_files/resourceplone.formwidget.autocompletejquery.autocomplete-cachekey-62f13f2dc40ceaaf37eb8b2840306cfd.css">
+    <link rel="stylesheet" type="text/css" media="all" href="./FUSION 2018_files/full-stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="all" href="./FUSION 2018_files/styleguide.css">
+    <link rel="stylesheet" type="text/css" media="all" href="./FUSION 2018_files/falcon.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="./FUSION 2018_files/ploneCustom-cachekey-2bca80ba783f1704b62dda9ba9e9c37b.css">
+    <link rel="alternate" type="application/json+oembed"
+          href="https://fusion2018.eng.cam.ac.uk/@@oembed?url=https%3A%2F%2Ffusion2018.eng.cam.ac.uk&amp;format=json"
+          title="FUSION 2018 oEmbed Profile">
+    <link rel="alternate" type="text/xml+oembed"
+          href="https://fusion2018.eng.cam.ac.uk/@@oembed?url=https%3A%2F%2Ffusion2018.eng.cam.ac.uk&amp;format=xml"
+          title="FUSION 2018 oEmbed Profile">
+    <link rel="alternate" href="https://fusion2018.eng.cam.ac.uk/RSS" title="FUSION 2018 - RSS 1.0"
+          type="application/rss+xml">
+    <link rel="alternate" href="https://fusion2018.eng.cam.ac.uk/rss.xml" title="FUSION 2018 - RSS 2.0"
+          type="application/rss+xml">
+    <link rel="alternate" href="https://fusion2018.eng.cam.ac.uk/atom.xml" title="FUSION 2018 - Atom"
+          type="application/rss+xml">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FUSION 2018</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="https://fusion2018.eng.cam.ac.uk/ucam_favicon.ico">
+    <link rel="apple-touch-icon"
+          href="https://fusion2018.eng.cam.ac.uk/++theme++ucam.falcon/light/apple-touch-icon.png">
+    <!-- CSS : implied media="all" -->
+    <script type="text/javascript" async="" src="./FUSION 2018_files/analytics.js"></script>
+    <script type="text/javascript" src="./FUSION 2018_files/ccz1grx.js"></script>
+    <style type="text/css">.tk-myriad-pro {
+        font-family: "myriad-pro", "Verdana", "Arial", sans-serif;
+    }</style>
+    <style type="text/css">@font-face {
+        font-family: myriad-pro;
+        src: url(https://use.typekit.com/af/9a5180/00000000000000000001709e/27/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.com/af/9a5180/00000000000000000001709e/27/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.com/af/9a5180/00000000000000000001709e/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: myriad-pro;
+        src: url(https://use.typekit.com/af/04a489/00000000000000000001709f/27/l?subset_id=2&fvd=i7&v=3) format("woff2"), url(https://use.typekit.com/af/04a489/00000000000000000001709f/27/d?subset_id=2&fvd=i7&v=3) format("woff"), url(https://use.typekit.com/af/04a489/00000000000000000001709f/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: myriad-pro;
+        src: url(https://use.typekit.com/af/bce065/00000000000000000001709b/27/l?subset_id=2&fvd=i4&v=3) format("woff2"), url(https://use.typekit.com/af/bce065/00000000000000000001709b/27/d?subset_id=2&fvd=i4&v=3) format("woff"), url(https://use.typekit.com/af/bce065/00000000000000000001709b/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: myriad-pro;
+        src: url(https://use.typekit.com/af/341571/000000000000000000017098/27/l?subset_id=2&fvd=n3&v=3) format("woff2"), url(https://use.typekit.com/af/341571/000000000000000000017098/27/d?subset_id=2&fvd=n3&v=3) format("woff"), url(https://use.typekit.com/af/341571/000000000000000000017098/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: myriad-pro;
+        src: url(https://use.typekit.com/af/8cf19a/00000000000000000001709a/27/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.com/af/8cf19a/00000000000000000001709a/27/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.com/af/8cf19a/00000000000000000001709a/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: myriad-pro;
+        src: url(https://use.typekit.com/af/49e40a/00000000000000000001709c/27/l?subset_id=2&fvd=n6&v=3) format("woff2"), url(https://use.typekit.com/af/49e40a/00000000000000000001709c/27/d?subset_id=2&fvd=n6&v=3) format("woff"), url(https://use.typekit.com/af/49e40a/00000000000000000001709c/27/a?subset_id=2&fvd=n6&v=3) format("opentype");
+        font-weight: 600;
+        font-style: normal;
+    }</style>
+    <script type="text/javascript">try {
+        Typekit.load();
+    } catch (e) {
+    }</script>
+    <style type="text/css"
+           media="screen">@import url(https://fusion2018.eng.cam.ac.uk/portal_css/Falcon%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-7b3996edadb49871df15494548fa7201.css);</style>
+    <style type="text/css"
+           media="all">@import url(https://fusion2018.eng.cam.ac.uk/portal_css/Falcon%20Theme/ploneboard-cachekey-5c533c46299f901ccc0883b79fa6c0d9.css);</style>
+    <style type="text/css"
+           media="screen">@import url(https://fusion2018.eng.cam.ac.uk/portal_css/Falcon%20Theme/resourcecollective.z3cform.datagridfielddatagridfield-cachekey-6cae7d5d11a8df0a162651e24adae1a3.css);</style>
+    <!--[if lt IE 8]>
+
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="https://fusion2018.eng.cam.ac.uk/portal_css/Falcon%20Theme/IEFixes-cachekey-b6515ddf4ac9c1c7cb0bb380f204a89d.css"/>
+    <![endif]-->
+    <script type="text/javascript"
+            src="./FUSION 2018_files/resourceplone.app.jquery-cachekey-14ebb0b2bce60ce7f653b23c5a801e51.js"></script>
+    <script type="text/javascript"
+            src="./FUSION 2018_files/resourcepb_attachment-cachekey-c145ad8fd951820d17ea400084ce6823.js"></script>
+    <script type="text/javascript"
+            src="./FUSION 2018_files/resourceplone.formwidget.autocompletejquery.autocomplete.min-cachekey-7a9aae891fc62892633aac114d7a853a.js"></script>
+    <script type="text/javascript"
+            src="./FUSION 2018_files/resourceucam.falcon.jsdatagridfield_fixup-cachekey-af7cf51f9e9bc5549d458959224e86ba.js"></script>
+    <script type="text/javascript"
+            src="./FUSION 2018_files/carousel-cachekey-1197f8b792904e8ef178076435aa5e0d.js"></script>
+    <script type="text/javascript">var jqueryOmebedSettings = {
+        embedMethod: "append",
+        defaultOEmbedProvider: "plone",
+        activate_jqueryoembed_integration: true
+    };</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // can use links inside div.oembed too since "a" don't work for tinymce styles
+            $("a.oembed,.oembed a").oembed(null, jqueryOmebedSettings);
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            if (typeof($.datepicker) != "undefined") {
+                $.datepicker.setDefaults(
+                    jQuery.extend($.datepicker.regional[''],
+                        {dateFormat: 'mm/dd/yy'}));
+            }
+        });
+    </script>
+    <meta name="DC.format" content="text/html">
+    <meta name="DC.language" content="en">
+    <meta name="DC.date.modified" content="2018-07-30T16:06:43+01:00">
+    <meta name="DC.date.created" content="2017-06-16T07:13:48+01:00">
+    <meta name="description" content="FUSION 2018 International Conference, Cambridge UK, July 2018">
+    <meta name="DC.distribution" content="Global">
+    <meta name="distribution" content="Global">
+    <meta name="robots" content="ALL"><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./FUSION 2018_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111480695-1');
+    </script>
+</head>
+<body class="template-teaser_page portaltype-plone-site site-ENGF2018 icons-on userrole-anonymous campl-theme-7"
+      data-portal-url="https://fusion2018.eng.cam.ac.uk" data-base-url="https://fusion2018.eng.cam.ac.uk">
+<!--[if lt IE 7]>
+<div class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]--><!--[if IE 7]>
+<div class="lt-ie9 lt-ie8">
+<![endif]--><!--[if IE 8]>
+<div class="lt-ie9">
+<![endif]-->
+
+<div class="campl-row campl-page-header campl-section-page">
+    <div class="campl-wrap clearfix">
+        <div class="campl-column12">
+            <div class="campl-content-container campl-co-branding-container" id="falcon-logo-wrapper">
+                <div class="campl-breadcrumb" id="campl-breadcrumb">
+                    <ul class="campl-unstyled-list campl-horizontal-navigation clearfix">
+                    </ul>
+                </div>
+
+                <img class="campl-co-branding-logo" style="height:120px;width:235px" alt="" src="./image/cd-logo.gif">
+                <p class="campl-page-title">ICCAIS 2018</p>
+                <p class="campl-page-subtitle" style="font-size: 16px">The Eighth International Conference On Control
+                    Automation
+                    & Information Sciences (ICCAIS 2019), October 24-27, 2019, CHengdu, China.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="campl-row campl-page-header">
+    <div class="campl-wrap clearfix campl-local-navigation" id="local-nav"><p class="campl-closed campl-menu-btn"
+                                                                              id="menu-btn"><a
+            href="https://fusion2018.eng.cam.ac.uk/#"><span>Menu</span> <span class="campl-menu-btn-arrow"></span></a>
+    </p>
+        <div class="campl-local-navigation-container">
+            <ul class="campl-unstyled-list campl-current">
+                <li class="campl-top">
+                    <a href="https://fusion2018.eng.cam.ac.uk/"> <span>Home</span></a>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/callforpapers" style="position: relative;">Regarding
+                        ICCAIS 2019<span
+                                class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>Organizing Committee</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/callforpapers">International Program Committee</a>
+                        </li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/callforpapers">Call For Paper</a></li>
+                    </ul>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/programme" style="position: relative;">Paper
+                        Submission<span
+                                class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>Paper Submission Guideline</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/programme">Programme</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/programme">Programme Overview</a></li>
+                        <li>
+                            <a href="https://fusion2018.eng.cam.ac.uk/programme/keynote-speakers">Online Submission</a>
+                        </li>
+                        <li>
+                            <a href="https://fusion2018.eng.cam.ac.uk/programme/notesforsessionchairsandauthors">Camera-ready
+                                Submission</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/specialsessions" style="position: relative;">Program<span
+                            class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>Program At Glance</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/specialsessions">Plenary Speakers</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/specialsessions">Workshops Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="https://fusion2018.eng.cam.ac.uk/specialsessions/ssdescription">Special
+                                Sessions</a>
+                        </li>
+                        <li>
+                            <a href="https://fusion2018.eng.cam.ac.uk/specialsessions/ssdescription">Special
+                                Sessions</a>
+                        </li>
+                        <li>
+                            <a href="https://fusion2018.eng.cam.ac.uk/specialsessions/ssdescription">Session
+                                Timetable</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/tutorials" style="position: relative;">Registration<span
+                            class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>Guideline</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/tutorials">Online Registration</a></li>
+                    </ul>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/venue" style="position: relative;">Travel Information<span
+                            class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>General Information</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/venue">Transportation</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/venue">Visa</a></li>
+                        <li>
+                            <a href="https://fusion2018.eng.cam.ac.uk/venue/travel">Tour & Local Arrangement</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/venue" style="position: relative;">Venue<span
+                            class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>Conference venue</a></li>
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/venue">Accommodation</a></li>
+                    </ul>
+                </li>
+                <li class="campl-top campl-sub">
+                    <a href="https://fusion2018.eng.cam.ac.uk/venue" style="position: relative;">History<span
+                            class="campl-menu-indicator campl-fwd-btn"></span></a>
+                    <ul class="campl-unstyled-list campl-local-dropdown-menu">
+                        <li><a href="https://fusion2018.eng.cam.ac.uk/#"><span
+                                class="campl-back-btn campl-menu-indicator"></span>Conference History</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<div class="campl-row campl-page-header" id="campl-content">
+    <div class="campl-wrap clearfix">
+        <div class="campl-column12">
+            <div class="campl-column9 campl-recessed-carousel">
+                <div class="section-carousel campl-carousel clearfix" id="campl-carousel">
+                    <div class="campl-carousel-container">
+                        <ul class="campl-unstyled-list campl-slides" style="width: 6181px; left: -2649px;">
+                            <li class="campl-slide campl-column12" style="width: 883px; display: list-item;">
+                                <div class="image-container">
+
+                                    <img alt="market.jpg" class="campl-scale-with-grid"
+                                         src="./image/cd3.jpg"></div>
+                                <div class="campl-slide-caption">
+                                    <span class="campl-slide-caption-txt">Invitation to ICCAIS 2019</span>
+                                    <span class="campl-carousel-pagination">1 of 4</span></div>
+
+                            </li>
+                            <li class="campl-slide campl-column12" style="width: 883px; display: list-item;">
+                                <div class="image-container">
+
+                                    <img alt="bridge" class="campl-scale-with-grid"
+                                         src="./image/cd4.jpg"></div>
+                                <div class="campl-slide-caption">
+                                    <span class="campl-slide-caption-txt">Invitation to ICCAIS 2019</span>
+                                    <span class="campl-carousel-pagination">2 of 4</span></div>
+
+                            </li>
+                            <li class="campl-slide campl-column12" style="width: 883px; display: list-item;">
+                                <div class="image-container">
+
+                                    <img alt="campub.jpg" class="campl-scale-with-grid"
+                                         src="./image/cd5.jpg"></div>
+                                <div class="campl-slide-caption">
+                                    <span class="campl-slide-caption-txt">Invitation to ICCAIS 2019</span>
+                                    <span class="campl-carousel-pagination">3 of 4</span></div>
+
+                            </li>
+                            <li class="campl-slide campl-column12" style="width: 883px; display: list-item;">
+                                <div class="image-container">
+
+                                    <img alt="Kings.jpg" class="campl-scale-with-grid"
+                                         src="./image/cd6.jpg"></div>
+                                <div class="campl-slide-caption">
+                                    <span class="campl-slide-caption-txt">Invitation to ICCAIS 2019</span>
+                                    <span class="campl-carousel-pagination">4 of 4</span></div>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="campl-unstyled-list clearfix campl-carousel-controls" id="carousel-controls">
+                        <li class="campl-previous-li" style="display: list-item;"><a
+                                class="ir campl-carousel-control-btn campl-previous"
+                                href="https://fusion2018.eng.cam.ac.uk/#" style=""><span
+                                class="campl-arrow-span"></span>previous slide</a></li>
+                        <li class="campl-next-li" style="display: list-item;"><a
+                                class="ir campl-carousel-control-btn campl-next"
+                                href="https://fusion2018.eng.cam.ac.uk/#" style=""><span
+                                class="campl-arrow-span"></span>next slide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="campl-column3">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+<div class="campl-row campl-content campl-recessed-content">
+    <div class="campl-wrap clearfix">
+        <div class="campl-column9 campl-main-content" style="min-height: 1998.22px;">
+
+            <div class="campl-content-container campl-sub-column-right-border campl-vertical-padding clearfix" style="font-size: medium;padding-top: 25px;padding-right: 15px;padding-left: 10px">
+                The Seventh International Conference on Control, Automation and Information Sciences (ICCAIS 2018) will be held in the beautiful city of Hangzhou, China, from October 24-27, 2018. The Hangzhou Dianzi University is proud to co-host ICCAIS 2018 together with the Changshu Institute of Technology and University Of Electronic Science And Technology Of China. The conference provides a forum for regional and international researchers, engineers and practitioners to discuss and present relevant achievements, challenges, innovation as well as future direction in control, automation and information sciences research and practice.
+                <br>
+                <br>
+                Hangzhou is one of the important tourism cities in China, famous for its natural beauty and historical and cultural heritages. Hangzhou is the capital of Zhejiang province. It is the political, economic and cultural center of the province as well. It is one of the 15 vice-provincial level cities in China. Hangzhou covers a total area of 16596 square kilometers, with a population of 9.18 million, including 683 square kilometers of city proper area.Hangzhou is located on the low reaches of Qiantang river in southeast China, with a distance of 180 kilometers to Shanghai. It is one of the key cities in the Yangzi Delta area.
+                <br>
+                <br>
+                Since Hangzhou was set up as a county capital in Qin Dynasty, it has a history of more than 2200 years as a city. It used to be the capital of Wuyue State (during the Five-Dynasty-Ten-State Era in Chinese history) and South Song Dynasty; that made Hangzhou one of the seven ancient capitals in China. When Marco Polo came to Hangzhou in the 13th century, he praised it to be “the most beautiful city in the world". There is a popular saying: "Above there is heaven, below there are Hangzhou and Suzhou." Hangzhou is renowned as “Paradise on Earth”, “Cultural State”, “Home of Silk”, “Tea Capital”, “Town of Fish and Rice”.
+            </div>
+            <div class="campl-content-container campl-sub-column-right-border campl-vertical-padding clearfix">
+                <div class="campl-column6">
+                    <div class="campl-content-container campl-side-padding">
+
+                        <div class="campl-teaser campl-vertical-teaser">
+
+
+                            <div class="campl-content-container campl-vertical-teaser-img">
+                                <a href="https://fusion2018.eng.cam.ac.uk/registration" class="campl-teaser-img-link">
+
+
+                                    <img class="campl-scale-with-grid"
+                                         src="./FUSION 2018_files/75976d2b-b22d-4d37-8271-a6e4c9c51054.jpeg"
+                                         alt="Peterhouse250.jpg"></a>
+                            </div>
+
+
+                            <div class="campl-content-container campl-vertical-teaser-txt">
+                                <h3 class="campl-teaser-title"><a href="https://fusion2018.eng.cam.ac.uk/registration">Registration</a>
+                                </h3>
+                                <p>For information on how to register for the conference and accommodation options</p>
+
+
+                                <a class="campl-secondary-cta" href="https://fusion2018.eng.cam.ac.uk/registration">More
+                                    information</a>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="campl-column6">
+                    <div class="campl-content-container campl-side-padding campl-sub-column-left-border">
+
+                        <div class="campl-teaser campl-vertical-teaser">
+
+
+                            <div class="campl-content-container campl-vertical-teaser-img">
+                                <a href="http://fusion2018.eng.cam.ac.uk/venue" class="campl-teaser-img-link">
+
+
+                                    <img class="campl-scale-with-grid"
+                                         src="./FUSION 2018_files/3dee077a-bcdd-4942-abba-2c4d28c737f2.jpeg"
+                                         alt="venue"></a>
+                            </div>
+
+
+                            <div class="campl-content-container campl-vertical-teaser-txt">
+                                <h3 class="campl-teaser-title"><a href="http://fusion2018.eng.cam.ac.uk/venue">Venue -
+                                    Department of Engineering</a></h3>
+
+
+                                <a class="campl-secondary-cta" href="http://fusion2018.eng.cam.ac.uk/venue">More
+                                    information</a>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <hr class="campl-teaser-divider">
+            <div class="campl-content-container campl-sub-column-right-border campl-vertical-padding clearfix">
+                <div class="campl-column6">
+                    <div class="campl-content-container campl-side-padding">
+
+                        <div class="campl-teaser campl-vertical-teaser">
+
+
+                            <h3 class="campl-teaser-title"><a href="https://fusion2018.eng.cam.ac.uk/Sponsorship">Exhibition
+                                and Sponsorship</a></h3>
+                            <p>Fusion 2018 is sponsored by</p>
+
+                            <a class="campl-primary-cta" href="https://fusion2018.eng.cam.ac.uk/Sponsorship">Read
+                                more</a>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="campl-column6">
+                    <div class="campl-content-container campl-side-padding campl-sub-column-left-border">
+
+                        <div class="campl-teaser campl-vertical-teaser">
+
+
+                            <div class="campl-content-container campl-vertical-teaser-img">
+                                <a class="campl-teaser-img-link">
+
+
+                                    <img class="campl-scale-with-grid"
+                                         src="./FUSION 2018_files/0f94b5a3-1a65-4b1a-a4dc-b0644a180279.jpeg"
+                                         alt="sponsors.jpg"></a>
+                            </div>
+
+
+                            <div class="campl-content-container campl-vertical-teaser-txt">
+                                <h3 class="campl-teaser-title"></h3>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="campl-column3 campl-secondary-content campl-recessed-secondary-content"
+             style="min-height: 2429px; display: block; background-color: white;color: white">
+
+
+
+            <div class="portletWrapper">
+                <div class="campl-content-container falcon-static-portlet" style="background-color: white">
+
+                    <div class="portlet-static-welcome" style="background-color: white">
+
+                        <div class="campl-heading-container" style="background-color: white">
+                            <h2>
+                                <b>Contact Information</b>
+                            </h2>
+                        </div>
+                        <div>
+                            Email:
+                            ICCAIS2018@163.com
+
+                            Phone:
+                            86+13456830150
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="portletWrapper">
+                <div class="campl-content-container falcon-static-portlet" style="background-color: white">
+
+                    <div class="portlet-static-welcome" style="background-color: white">
+
+                        <div class="campl-heading-container">
+                            <h2>
+                                <b>Organised By</b>
+                            </h2>
+                        </div>
+                        <div class="campl-content-container">
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser">
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/orz4.gif" alt="ISIF logo">
+                            </div>
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser">
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/ogz3.gif" alt="ISIF logo">
+                            </div>
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser">
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/ogz1.gif" alt="ISIF logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portletWrapper">
+                <div class="campl-content-container falcon-static-portlet" style="background-color: white">
+
+                    <div class="portlet-static-welcome" style="background-color: white">
+
+                        <div class="campl-heading-container" style="background-color: white">
+                            <h2>
+                                <b>Technically Co-Sponsored By</b>
+                            </h2>
+                        </div>
+                        <div class="campl-content-container" style="background-color: white">
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser">
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/ieee.gif" alt="ISIF logo">
+                            </div>
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser">
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/Sensors-Logo.png" alt="ISIF logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portletWrapper">
+                <div class="campl-content-container falcon-static-portlet" style="background-color: white">
+
+                    <div class="portlet-static-welcome" style="background-color: white">
+
+                        <div class="campl-heading-container" style="background-color: white">
+                            <h2>
+                                <b>Dosmetically Sponsored By</b>
+                            </h2>
+                        </div>
+                        <div class="campl-content-container" style="background-color: white">
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser">
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/logo3.png" alt="ISIF logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="campl-content-container" style="background-color: white">
+
+                    <div class="portlet-static-welcome" style="background-color: white">
+
+                        <div class="campl-heading-container" style="background-color: white">
+                            <h2>
+                                <b>Indexed In</b>
+                            </h2>
+                        </div>
+                        <div class="campl-content-container" style="background-color: white">
+                            <div class="campl-teaser campl-promo-teaser campl-vertical-teaser" >
+
+
+                                <img class="campl-scale-with-grid"
+                                     src="./image/ieeeIndex.png" alt="ISIF logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+<div class="campl-row campl-global-footer">
+    <div class="campl-wrap clearfix">
+        <div class="campl-column3 campl-footer-navigation" style="height: 221px;">
+            <div class="campl-content-container campl-footer-logo">
+                <img alt="University of Cambridge" src="./FUSION 2018_files/main-logo-small.png"
+                     class="campl-scale-with-grid">
+                <p>© 2017 University of Cambridge</p>
+                <ul class="campl-unstyled-list campl-global-footer-links">
+                    <li>
+                        <a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/contact-the-university">Contact the University</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/about-this-site/accessibility">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="http://www.admin.cam.ac.uk/univ/information/foi/">Freedom of information</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/about-this-site/terms-and-conditions">Terms and conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="campl-column3 campl-footer-navigation" style="height: 221px;">
+            <div class="campl-content-container campl-navigation-list">
+
+                <div class="link-list">
+                    <h3><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></h3>
+                    <ul class="campl-unstyled-list">
+                        <li>
+                            <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+                        </li>
+                        <li>
+                            <a href="http://www.graduate.study.cam.ac.uk/">Graduate</a>
+                        </li>
+                        <li>
+                            <a href="http://www.internationalstudents.cam.ac.uk/">International students</a>
+                        </li>
+                        <li>
+                            <a href="http://www.ice.cam.ac.uk/">Continuing education</a>
+                        </li>
+                        <li>
+                            <a href="http://www.epe.admin.cam.ac.uk/">Executive and professional education</a>
+                        </li>
+                        <li>
+                            <a href="http://www.educ.cam.ac.uk/">Courses in education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="campl-column3 campl-footer-navigation" style="height: 221px;">
+            <div class="campl-content-container campl-navigation-list">
+                <h3><a href="http://www.cam.ac.uk/about-the-university">About the University</a></h3>
+                <ul class="campl-unstyled-list campl-page-children">
+                    <li>
+                        <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the
+                            University and Colleges work</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the
+                            University</a>
+                    </li>
+                    <li>
+                        <a href="http://map.cam.ac.uk/">Map</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/news">News</a>
+                    </li>
+                    <li>
+                        <a href="http://www.admin.cam.ac.uk/whatson/">Events</a>
+                    </li>
+                    <li>
+                        <a href="http://www.jobs.cam.ac.uk/">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.philanthropy.cam.ac.uk/">Give to Cambridge</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="campl-column3 campl-footer-navigation last" style="height: 221px;">
+            <div class="campl-content-container campl-navigation-list">
+                <h3><a href="http://www.cam.ac.uk/research">Research at Cambridge</a></h3>
+                <ul class="campl-unstyled-list">
+                    <li>
+                        <a href="http://www.cam.ac.uk/research/news">News</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/research/features">Features</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/research/discussion">Discussion</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/research/spotlight-on">Spotlight on...</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cam.ac.uk/research/research-at-cambridge">About research at Cambridge</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- .campl-global-footer ends --><!--[if lte IE 8]>
+</div>
+<![endif]-->
+<script type="text/javascript" src="./FUSION 2018_files/ios-orientationchange-fix.js"></script>
+<script type="text/javascript" src="./FUSION 2018_files/modernizr.js"></script>
+<script type="text/javascript" src="./FUSION 2018_files/custom.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var contentWidth = $('#content').width();
+
+        $("dl.image-inline.captioned, dl.image-left.captioned, dl.image-right.captioned").each(function () {
+            var caption = $(this).find('.image-caption');
+            var img = $(this).find('img');
+            var width = img.width()
+            var ratio = (width < contentWidth) ? width / contentWidth : 1;
+
+            $(this).removeAttr('style');
+            caption.removeAttr('style');
+
+            img.removeAttr('width');
+            img.removeAttr('height');
+            img.css('max-width', "100%");
+            img.css('height', "auto");
+
+            $(this).css('max-width', (ratio * 100.0) + '%');
+        })
+    });
+</script>
+<div id="ajax-spinner" style="display: none;"><img src="./FUSION 2018_files/spinner.gif" alt=""></div>
+<p style="color:red;z-index:100;position:absolute;top:5px;left:5px" id="pagewidth"></p></body>
+</html>
